@@ -99,7 +99,7 @@ class paras:
     genetics_recombination_cutcount = deepcopy(genetics_recombination_cutcount_init)
     genetics_recombination_cutcount_adjust = None
     genetics_basicmetric_selector = {'abtbuy':None, 'songs':None, 'acm':None, 'itunes':None}
-    raw_rule_approveprobability_init = {'abtbuy':[0.999, 0.55], 'songs':[0.95, 0.95], 'acm':[0.95, 0.95], 'itunes':[0.95, 0.95]}
+    raw_rule_approveprobability_init = {'abtbuy':[0.999, 0.6], 'songs':[0.95, 0.95], 'acm':[0.95, 0.95], 'itunes':[0.95, 0.95]}
     raw_rule_approveprobability = deepcopy(raw_rule_approveprobability_init)
     raw_rule_approveprobability_adjust = {'abtbuy':[0.0, 0.0], 'songs':[0.0, 0.0], 'acm':[0.0, 0.0], 'itunes':[0.0, 0.0]}
     raw_rule_approveprobability_adjust_period = {'abtbuy':None, 'songs':None, 'acm':None, 'itunes':None}
